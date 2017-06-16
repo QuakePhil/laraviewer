@@ -1,0 +1,15 @@
+{
+    "name": "QuakePhil/laraviewer",
+    "description": "Tools for viewing laravel code",
+    "autoload": {
+        "psr-0" : {
+            "QuakePhil\\LaraViewer" : "src/"
+        }
+    }
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/quakephil/laraviewer"
+        }
+    ],
+}
