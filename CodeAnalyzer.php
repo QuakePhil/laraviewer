@@ -1,8 +1,10 @@
 <?php
 
-namespace HfaTools;
+namespace QuakePhil;
 
 require_once 'ParsedClasses.php';
+
+use \QuakePhil\ParsedClasses;
 
 class CodeAnalyzer
 {

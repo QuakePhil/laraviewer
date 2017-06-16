@@ -3,7 +3,9 @@
 
 require_once 'CodeAnalyzer.php';
 
-$code = (new \HfaTools\CodeAnalyzer($argv));
+use \QuakePhil\CodeAnalyzer as LaraViewer; // should have a proper class for more tools
+
+$code = (new LaraViewer($argv));
 
 $reports = [
     'Model' => 'Models',

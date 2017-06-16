@@ -1,6 +1,6 @@
 <?php
 
-namespace HfaTools;
+namespace QuakePhil;
 
 require_once 'helpers.php';
 
