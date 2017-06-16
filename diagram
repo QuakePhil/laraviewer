@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-require_once 'CodeAnalyzer.php';
+require_once 'src/CodeAnalyzer.php';
 
 use \QuakePhil\CodeAnalyzer as LaraViewer; // should have a proper class for more tools
 

@@ -12,10 +12,10 @@ class ParsedClasses
 
     public function __construct($argv)
     {
-        $modelRoot = '/../app/Models';
+        $modelRoot = '/../../app/Models';
 
         if (isset($argv[1])) {
-            $modelRoot = '/../'.fixslash($argv[1]);
+            $modelRoot = '/../../'.fixslash($argv[1]);
         }
 
         $rii = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator(dirname(__FILE__).$modelRoot));
