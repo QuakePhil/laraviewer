@@ -11,5 +11,8 @@
             "type": "vcs",
             "url": "https://github.com/quakephil/laraviewer"
         }
+    ],
+    "bin": [
+        "bin/diagram"
     ]
 }
