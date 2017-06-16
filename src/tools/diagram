@@ -1,0 +1,22 @@
+#!/usr/bin/env php
+<?php
+
+require_once 'src/CodeAnalyzer.php';
+
+use \QuakePhil\CodeAnalyzer as LaraViewer; // should have a proper class for more tools
+
+$code = (new LaraViewer($argv));
+
+$reports = [
+    'Model' => 'Models',
+    'Controller' => 'Controllers',
+    'Repo' => 'Repos',
+    'Command' => 'Commands',
+];
+
+foreach ($reports as $rootNode => $title) {
+    echo "===========\n";
+    echo "$title\n";
+    echo "===========\n";
+    echo $code->diagram($rootNode)->report;
+}
