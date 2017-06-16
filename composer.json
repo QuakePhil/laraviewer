@@ -5,7 +5,7 @@
         "psr-0" : {
             "QuakePhil\\LaraViewer" : "src/"
         }
-    }
+    },
     "repositories": [
         {
             "type": "vcs",
