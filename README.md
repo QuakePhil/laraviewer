@@ -1,1 +1,1 @@
-./diagram <laravel-repo>
+`./diagram <laravel-repo>`
